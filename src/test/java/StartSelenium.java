@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 
 public class StartSelenium {
 
-
     WebDriver wd;
 
     @Test
