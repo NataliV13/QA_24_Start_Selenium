@@ -60,7 +60,7 @@ public class Index{
         //end
 
        WebElement Input5 = wd.findElement(By.cssSelector("[placeholder $= 'name']"));
-       WebElement divEl2= wd.findElement(By.cssSelector("['class $= 'ner']"));
+       WebElement divEl2 = wd.findElement(By.cssSelector("[class $= 'ner']"));
 
        //contains
 
@@ -71,7 +71,7 @@ public class Index{
        //by name
 
        WebElement input1 = wd.findElement(By.name("name"));
-       WebElement input2 = wd.findElement(By.cssSelector("['name = 'name']"));
+       WebElement input2 = wd.findElement(By.cssSelector("[name = 'name']"));
 
        //By LinkText
         WebElement a = wd.findElement(By.linkText("Item 1"));
