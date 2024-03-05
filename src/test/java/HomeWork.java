@@ -71,7 +71,7 @@ public class HomeWork {
 
         //one of elements find by attribute ==> start & end & contains value
 
-       //WebElement divEl2 = wd.findElement(By.cssSelector("[class ^='navbar']"));
+       WebElement divEl2 = wd.findElement(By.cssSelector("[class ^='navbar']"));
        WebElement tp = wd.findElement(By.cssSelector("[type$='submit']"));
        WebElement tp1 = wd.findElement(By.cssSelector("[name*='registration']"));
 
