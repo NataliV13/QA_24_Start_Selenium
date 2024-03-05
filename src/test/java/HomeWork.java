@@ -69,7 +69,10 @@ public class HomeWork {
         WebElement hrEl1 = wd.findElement(By.cssSelector("[href='/about']"));
         WebElement butEl = wd.findElement(By.cssSelector("[type='submit']"));
 
-        //one off elements
+        //one off elements find by attribute ==> start & end & contains value
+
+
+
 
 
     }
