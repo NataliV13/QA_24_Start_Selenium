@@ -7,32 +7,30 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
+
 public class Index{
-
    WebDriver wd;
-
    @BeforeClass
     public void setUp()
    {
        wd = new ChromeDriver();
-       wd.get("file:///C:/Users/User/Documents/21.index.html");
-
+       wd.get("file:///L:/Aavto/21.index.html");
    }
 
    @Test
     public void cssLocators(){
-
        //by tag name
-
        WebElement el = wd.findElement(By.tagName("button"));
        WebElement el2 = wd.findElement(By.cssSelector("button"));
-
        WebElement el1 = wd.findElement(By.tagName("a"));
        WebElement el3 = wd.findElement(By.cssSelector("a"));
 
+
+
        List<WebElement> list = wd.findElements(By.tagName("a"));
-       List<WebElement> list1 = wd.findElements(By.cssSelector("a"));
-       int i = list.size();
+
+      // List<WebElement> list1 = wd.findElements(By.cssSelector("a"));
+       //int i = list.size();
 
        // by class
 
@@ -79,7 +77,7 @@ public class Index{
         //By PartialLinkText
 
        WebElement a1 = wd.findElement(By.partialLinkText("m 1"));
-       List<WebElement> list2 = wd.findElements(By.partialLinkText("tem"));
+     //  List<WebElement> list2 = wd.findElements(By.partialLinkText("tem"));
 
 
 
