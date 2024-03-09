@@ -24,6 +24,12 @@ public class HomeWork {
 
         //by tag name
 
+        WebElement body = wd.findElement(By.tagName("body"));
+        WebElement body1 = wd.findElement(By.cssSelector("body"));
+
+        WebElement div = wd.findElement(By.tagName("div"));
+        WebElement div1 = wd.findElement(By.cssSelector("div"));
+
        WebElement el = wd.findElement(By.tagName("h1"));
        WebElement el1 = wd.findElement(By.cssSelector("h1"));
 
@@ -44,6 +50,9 @@ public class HomeWork {
 
         //by class
 
+        WebElement el_1 = wd.findElement(By.className("container"));
+        WebElement el1_11 = wd.findElement(By.cssSelector(".container"));
+
         WebElement el10 = wd.findElement(By.className("navbar-component_nav__1X_4m"));
         WebElement el11 = wd.findElement(By.cssSelector(".navbar-component_nav__1X_4m"));
 
@@ -60,6 +69,7 @@ public class HomeWork {
 
         //by attribute
 
+        WebElement el8_1 = wd.findElement(By.cssSelector("[id='root']"));
         WebElement aEl = wd.findElement(By.cssSelector("[class = 'active']"));
         WebElement divEl = wd.findElement(By.cssSelector("[class='login_login__3EHKB']"));
         WebElement divEl1 = wd.findElement(By.cssSelector("[class ='navbar-component_nav__1X_4m']"));
@@ -68,17 +78,14 @@ public class HomeWork {
         WebElement hrEl = wd.findElement(By.cssSelector("[href='/home']"));
         WebElement hrEl1 = wd.findElement(By.cssSelector("[href='/about']"));
         WebElement butEl = wd.findElement(By.cssSelector("[type='submit']"));
-
+        WebElement el11_1 = wd.findElement(By.cssSelector("[name='email']"));
+        WebElement el12_11 = wd.findElement(By.name("email"));
 
         //one of elements find by attribute ==> start & end & contains value
 
         WebElement divEl2 = wd.findElement(By.cssSelector("[class ^='navbar']"));
         WebElement tp = wd.findElement(By.cssSelector("[type$='submit']"));
         WebElement tp1 = wd.findElement(By.cssSelector("[name*='registration']"));
-
-
-
-
 
 
 
