@@ -14,7 +14,7 @@ public class Index{
     public void setUp()
    {
        wd = new ChromeDriver();
-       wd.get("file:///L:/Aavto/21.index.html");
+       wd.get("file:///C:/Users/User/Downloads/21.index.html");
    }
 
    @Test

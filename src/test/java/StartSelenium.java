@@ -14,6 +14,8 @@ public class StartSelenium {
         wd.navigate().back();
         wd.navigate().forward();
         wd.navigate().refresh();
+
+
         //wd.close();
         wd.quit();
 
