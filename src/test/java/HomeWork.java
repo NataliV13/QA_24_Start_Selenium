@@ -105,8 +105,6 @@ public class HomeWork {
         WebElement el16_1 = wd.findElement(By.cssSelector("[placeholder *='ma']"));
         WebElement el24 = wd.findElement(By.xpath("//*[contains(@placeholder,'ma')]"));
 
-
-
         //by text
         WebElement el25 = wd.findElement(By.xpath("//a[text()='ABOUT']"));
     }

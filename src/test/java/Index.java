@@ -38,8 +38,8 @@ public class Index{
 
        List<WebElement> list = wd.findElements(By.tagName("a"));
 
-      // List<WebElement> list1 = wd.findElements(By.cssSelector("a"));
-       //int i = list.size();
+      List<WebElement> list1 = wd.findElements(By.cssSelector("a"));
+      int i = list.size();
 
        // by class
 
@@ -86,14 +86,10 @@ public class Index{
         //By PartialLinkText
 
        WebElement a1 = wd.findElement(By.partialLinkText("m 1"));
-     //  List<WebElement> list2 = wd.findElements(By.partialLinkText("tem"));
-
-
+        List<WebElement> list2 = wd.findElements(By.partialLinkText("tem"));
 
 
    }
-
-
 
 }
 
