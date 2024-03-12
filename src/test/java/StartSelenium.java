@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 
 
-public class HomeWork {
+public class StartSelenium {
 
     WebDriver wd;
 
