@@ -23,6 +23,7 @@ public class Index{
 
        //Canada
        WebElement canada = wd.findElement(By.cssSelector("tr:nth-child(3) td:last-child"));
+       WebElement canada1 = wd.findElement(By.xpath("//*[text()='Canada']"));
        Assert.assertEquals(canada.getText(),"Canada");
 
    }
@@ -37,8 +38,7 @@ public class Index{
 
 
        List<WebElement> list = wd.findElements(By.tagName("a"));
-
-      List<WebElement> list1 = wd.findElements(By.cssSelector("a"));
+       List<WebElement> list1 = wd.findElements(By.cssSelector("a"));
       int i = list.size();
 
        // by class
